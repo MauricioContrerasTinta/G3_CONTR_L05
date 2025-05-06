@@ -51,6 +51,7 @@ public class GestorDeTareas<T> {
         Nodo<T> actual = cabeza;
         while(actual != null){
             System.out.println(actual.getData());
+            actual = actual.setSig();
         }
     }
 
