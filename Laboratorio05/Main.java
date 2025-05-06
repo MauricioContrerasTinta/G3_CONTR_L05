@@ -1,6 +1,7 @@
 package Laboratorio05;
 import java.util.ArrayList;
 import java.util.List;
+import Laboratorio05.Ejercicios;
 
 public class Main {
     public static void main(String[] args) {
@@ -36,5 +37,9 @@ public class Main {
         }
 
         System.out.println("Tarea más prioritaria: " + gestor.obtenerTareaMasPrioritaria());
+
+
+        boolean existe = Ejercicios.buscarElemento(tareasCompletadas, t3); 
+        System.out.println("Está la tarea estudiar en completadas? " + existe); 
     }
 }
