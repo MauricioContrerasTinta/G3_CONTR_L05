@@ -4,7 +4,9 @@ public class Ejercicios {
     
     public static <T> boolean buscarElemento(Nodo<T> cabeza, T valor){
         Nodo<T> actual = cabeza;
-        w
+        while(actual != null){
+            if(actual.getData().equals(valor)) return true;
+        }
     }
 
 }
