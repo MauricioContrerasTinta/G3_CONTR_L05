@@ -7,5 +7,8 @@ public class GestorDeTareas<T> {
 
     private void agregarTarea(T tarea){
         Nodo<T> nuevo = new Nodo<>(tarea, null);
+        if(cabeza == null){
+            cabeza = nuevo;
+        }
     }
 }
