@@ -50,6 +50,7 @@ public class Ejercicios {
             l1 = l1.getSig(); 
             l2 = l2.getSig();
         }
+        return l1 == null && l2 == null;
     }
 
 }
