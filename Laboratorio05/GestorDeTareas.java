@@ -34,5 +34,8 @@ public class GestorDeTareas<T> {
             actual.setSig(actual.getSig().getSig());
             return true;
         }
+
+        return false;
     }
+    
 }
