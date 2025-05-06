@@ -14,4 +14,12 @@ public class Nodo <E> {
     public Nodo<E> getSig(){
         return sig;
     }
+
+    public void setData(E data){
+        this.data = data;
+    }
+
+    public void setSig(Nodo<E> sig){
+        this.sig = sig;
+    }
 }
