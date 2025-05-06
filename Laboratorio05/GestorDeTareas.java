@@ -70,11 +70,13 @@ public class GestorDeTareas<T> {
         Nodo<T> actual = cabeza;
         Tarea mejor = (Tarea) actual.getData();
 
-        whuile(actual != null){
+        while(actual != null){
             Tarea T = (Tarea) actual.getData();
             if(t.getPrioridad() > mejor.getPrioridad()){
                 mejor = t;
             }
+            actual = actual.getSig();
         }
+        return (T) mejor;
     }
 }
