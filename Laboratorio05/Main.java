@@ -15,5 +15,8 @@ public class Main {
         gestor.agregarTarea(t2);
         gestor.agregarTarea(t3);
 
+        gestor.eliminarTarea(t2);
+
+
     }
 }
