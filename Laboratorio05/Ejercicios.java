@@ -17,6 +17,7 @@ public class Ejercicios {
         while (actual != null) {
             Nodo<T> siguiente = actual.getSig();
             actual.setSig(anterior);
+            anterior = actual;
         }
     }
 
