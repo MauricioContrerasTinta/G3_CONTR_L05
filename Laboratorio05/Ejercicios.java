@@ -20,6 +20,7 @@ public class Ejercicios {
             anterior = actual;
             actual = siguiente;
         }
+        return anterior;
     }
 
 }
