@@ -6,4 +6,12 @@ public class Nodo <E> {
         this.data = data;
         this.sig = sig;
     }
+
+    public E getData(){
+        return data;
+    }
+
+    public Nodo<E> getSig(){
+        return sig;
+    }
 }
