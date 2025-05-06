@@ -55,5 +55,11 @@ public class GestorDeTareas<T> {
         }
     }
 
+    public int contarTareas(){
+        int contador = 0;
+        
+
+    }
+
 
 }
