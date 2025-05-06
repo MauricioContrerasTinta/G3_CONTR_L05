@@ -9,6 +9,11 @@ public class GestorDeTareas<T> {
         Nodo<T> nuevo = new Nodo<>(tarea, null);
         if(cabeza == null){
             cabeza = nuevo;
+        } else{
+            Nodo<T> actual = cabeza;
+            while(actual.getSig() != null){
+                actual = actual.getSig();
+            }
         }
     }
 }
