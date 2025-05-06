@@ -20,10 +20,14 @@ public class Main {
         System.out.println("Tareas: ");
         gestor.imprimirTareas();
 
-        System.out.println("\n¿Contiene Comer? " + gestor.contieneTarea(t1));
+        System.out.println("Contiene Comer? " + gestor.contieneTarea(t1));
 
         gestor.invertirTareas();
-        System.out.println("\nLista invertida: ");
+        System.out.println("Lista invertida: ");
+        gestor.imprimirTareas();
+
+        gestor.transferirTareaAListaCompletada(t3, tareasCompletadas);
+        System.out.println("Tareas después de completar una: ");
         gestor.imprimirTareas();
     }
 }
