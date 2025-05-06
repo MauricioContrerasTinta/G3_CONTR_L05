@@ -53,4 +53,8 @@ public class Ejercicios {
         return l1 == null && l2 == null;
     }
 
+    public static <T> Nodo<T> concatenarListas(Nodo<T> l1, Nodo<T> l2){
+        
+    }
+
 }
