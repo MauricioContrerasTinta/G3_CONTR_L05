@@ -59,6 +59,7 @@ public class Ejercicios {
         while (actual.getSig() != null) {
             actual = actual.getSig();
         }
+        actual.setSig(l2);
     }
 
 }
