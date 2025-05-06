@@ -71,7 +71,7 @@ public class GestorDeTareas<T> {
         Tarea mejor = (Tarea) actual.getData();
 
         while(actual != null){
-            Tarea T = (Tarea) actual.getData();
+            Tarea t = (Tarea) actual.getData();
             if(t.getPrioridad() > mejor.getPrioridad()){
                 mejor = t;
             }
