@@ -79,4 +79,8 @@ public class GestorDeTareas<T> {
         }
         return (T) mejor;
     }
+
+    public void invertirTareas(){
+        
+    }
 }
