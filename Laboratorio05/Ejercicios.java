@@ -1,17 +1,22 @@
 package Laboratorio05;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Ejercicios {
     
-    public static <T> boolean buscarElemento(Nodo<T> cabeza, T valor){
+    public static <T> boolean buscarElemento(Nodo<T> cabeza, T valor) {
         Nodo<T> actual = cabeza;
-        while(actual != null){
-            if(actual.getData().equals(valor)) return true;
+        while (actual != null) {
+            if (actual.getData().equals(valor)) {
+                return true;
+            }
             actual = actual.getSig();
         }
         return false;
     }
 
-    public static <T> Nodo<T> invertirLista(Nodo<T> cabeza){
+    public static <T> Nodo<T> invertirLista(Nodo<T> cabeza) {
         Nodo<T> anterior = null;
         Nodo<T> actual = cabeza;
         while (actual != null) {
@@ -61,6 +66,24 @@ public class Ejercicios {
         }
         actual.setSig(l2);
         return l1;
+    }
+
+    public static <T> boolean buscarElemento(List<T> lista, T valor) {
+        return lista.contains(valor);
+    }
+
+    public static <T> List<T> invertirLista(List<T> lista) {
+        List<T> invertida = new ArrayList<>();
+        for (int i = lista.size() - 1; i >= 0; i--) {
+            invertida.add(lista.get(i));
+        }
+        return invertida;
+    }
+
+    public static <T> void imprimirLista(List<T> lista) {
+        for (T elemento : lista) {
+            System.out.println(elemento);
+        }
     }
 
 }

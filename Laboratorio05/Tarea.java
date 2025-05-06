@@ -27,6 +27,6 @@ public class Tarea {
 
     @Override
     public String toString(){
-        return "Titulo: " + this.titulo + " ,Prioridad: " + this.prioridad;
+        return "Titulo: " + this.titulo + " - Prioridad: " + this.prioridad;
     }
 }

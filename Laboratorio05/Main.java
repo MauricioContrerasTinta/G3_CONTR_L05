@@ -38,15 +38,15 @@ public class Main {
 
         System.out.println("Tarea más prioritaria: " + gestor.obtenerTareaMasPrioritaria());
 
+        System.out.println("EJERCICIOS:");
+
 
         boolean existe = Ejercicios.buscarElemento(tareasCompletadas, t3); 
         System.out.println("Está la tarea estudiar en completadas? " + existe);
         
         List<Tarea> invertida = Ejercicios.invertirLista(tareasCompletadas);
         System.out.println("Tareas completadas invertidas:");
-        for (Tarea t : invertida) {
-            System.out.println(t);
-        }
+        Ejercicios.imprimirLista(invertida);
 
         Nodo<Tarea> nuevaCabeza = new Nodo<>(t1, null);
         Ejercicios.insertarAlFinal(nuevaCabeza, t2);
