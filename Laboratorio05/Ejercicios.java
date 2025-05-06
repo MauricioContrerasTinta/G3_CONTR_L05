@@ -54,7 +54,7 @@ public class Ejercicios {
     }
 
     public static <T> Nodo<T> concatenarListas(Nodo<T> l1, Nodo<T> l2){
-        
+        if (l1 == null) return l2;
     }
 
 }
