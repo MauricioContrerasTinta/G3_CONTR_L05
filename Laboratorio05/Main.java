@@ -56,5 +56,8 @@ public class Main {
             System.out.println(actual.getData());
             actual = actual.getSig();
         }
+
+        int totalNodos = Ejercicios.contarNodos(nuevaCabeza);
+        System.out.println("Total de nodos: " + totalNodos);
     }
 }
