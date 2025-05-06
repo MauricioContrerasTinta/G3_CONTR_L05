@@ -16,7 +16,7 @@ public class Ejercicios {
         Nodo<T> actual = cabeza;
         while (actual != null) {
             Nodo<T> siguiente = actual.getSig();
-            
+            actual.setSig(anterior);
         }
     }
 
