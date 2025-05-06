@@ -20,6 +20,9 @@ public class GestorDeTareas<T> {
 
     public boolean eliminarTarea(T tarea){
         if(cabeza == null) retunr false;
-        
+        if(cabeza.getData().equals(tarea)){
+            cabeza = cabeza.getSig();
+            return true;
+        }
     }
 }
