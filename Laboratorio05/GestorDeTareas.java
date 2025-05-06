@@ -14,6 +14,7 @@ public class GestorDeTareas<T> {
             while(actual.getSig() != null){
                 actual = actual.getSig();
             }
+            actual.setSig(nuevo);
         }
     }
 }
