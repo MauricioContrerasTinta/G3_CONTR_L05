@@ -34,4 +34,8 @@ public class Ejercicios {
         return cabeza;
     }
 
+    public static <T> int contarNodos(Nodo<T> cabeza){
+        
+    }
+
 }
