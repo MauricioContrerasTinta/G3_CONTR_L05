@@ -26,6 +26,9 @@ public class Ejercicios {
     public static <T> Nodo<T> insertarAlFinal(Nodo<T> cabeza, T valor){
         Nodo<T> nuevo = new Nodo<>(valor, null);
         if(cabeza == null) return nuevo;
+        Nodo<T> actual = cabeza;
+        while (actual.getSig() != null) {
+            actual = actual.getSig();
     }
 
 }
