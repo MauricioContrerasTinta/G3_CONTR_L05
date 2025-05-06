@@ -97,6 +97,8 @@ public class GestorDeTareas<T> {
     public boolean transferirTareaAListaCompletada(T tarea, List<T> listaCompletadas){
         if(eliminarTarea(tarea)){
             listaCompletadas.add(tarea);
+            return true;
         }
+        return false;
     }
 }
