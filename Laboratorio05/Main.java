@@ -40,6 +40,12 @@ public class Main {
 
 
         boolean existe = Ejercicios.buscarElemento(tareasCompletadas, t3); 
-        System.out.println("Está la tarea estudiar en completadas? " + existe); 
+        System.out.println("Está la tarea estudiar en completadas? " + existe);
+        
+        List<Tarea> invertida = Ejercicios.invertirLista(tareasCompletadas);
+        System.out.println("Tareas completadas invertidas:");
+        for (Tarea t : invertida) {
+            System.out.println(t);
+        }
     }
 }
