@@ -45,7 +45,9 @@ public class Ejercicios {
     }
 
     public static <T> boolean sonIguales(Nodo<T> l1, Nodo<T> l2){
-        
+        while (l1 != null && l2 != null) {
+            if (!l1.getData().equals(l2.getData())) return false;
+        }
     }
 
 }
