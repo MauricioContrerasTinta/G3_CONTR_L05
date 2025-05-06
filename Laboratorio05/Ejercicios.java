@@ -44,4 +44,8 @@ public class Ejercicios {
         return contador; 
     }
 
+    public static <T> boolean sonIguales(Nodo<T> l1, Nodo<T> l2){
+        
+    }
+
 }
