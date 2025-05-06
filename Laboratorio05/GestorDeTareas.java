@@ -93,4 +93,8 @@ public class GestorDeTareas<T> {
         }
         cabeza = anterior;
     }
+
+    public boolean transferirTareaAListaCompletada(T tarea, List<T> listaCompletadas){
+        
+    }
 }
