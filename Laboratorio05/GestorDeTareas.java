@@ -57,8 +57,10 @@ public class GestorDeTareas<T> {
 
     public int contarTareas(){
         int contador = 0;
-        
-
+        Nodo<T> actual = cabeza;
+        while(actual != null){
+            contador++;
+        }
     }
 
 
