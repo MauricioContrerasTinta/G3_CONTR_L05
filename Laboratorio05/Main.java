@@ -64,5 +64,13 @@ public class Main {
         Nodo<Tarea> lista2 = new Nodo<>(t1, new Nodo<>(t2, null));
         boolean iguales = Ejercicios.sonIguales(lista1, lista2);
         System.out.println("¿Son iguales? " + iguales);
+
+        Nodo<Tarea> listaConcatenada = Ejercicios.concatenarListas(lista1, new Nodo<>(t3, null));
+        System.out.println("Lista concatenada:");
+        Nodo<Tarea> cursor = listaConcatenada;
+        while (cursor != null) {
+            System.out.println(cursor.getData());
+            cursor = cursor.getSig();
+        }
     }
 }
