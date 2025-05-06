@@ -91,6 +91,6 @@ public class GestorDeTareas<T> {
             anterior = actual;
             actual = siguiente;
         }
-        
+        cabeza = anterior;
     }
 }
