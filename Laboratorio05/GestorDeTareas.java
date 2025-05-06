@@ -81,6 +81,12 @@ public class GestorDeTareas<T> {
     }
 
     public void invertirTareas(){
-        
+        Nodo<T> anterior = null;
+        Nodo<T> actual = cabeza;
+        Nodo<T> siguiente;
+
+        while(actual != null){
+            siguiente = actual.getSig();
+        }
     }
 }
