@@ -14,7 +14,10 @@ public class Ejercicios {
     public static <T> Nodo<T> invertirLista(Nodo<T> cabeza){
         Nodo<T> anterior = null;
         Nodo<T> actual = cabeza;
-        
+        while (actual != null) {
+            Nodo<T> siguiente = actual.getSig();
+            
+        }
     }
 
 }
