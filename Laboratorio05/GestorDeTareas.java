@@ -88,6 +88,7 @@ public class GestorDeTareas<T> {
         while(actual != null){
             siguiente = actual.getSig();
             actual.setSig(anterior);
+            anterior = actual;
         }
     }
 }
