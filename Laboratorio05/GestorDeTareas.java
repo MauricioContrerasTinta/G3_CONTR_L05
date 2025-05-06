@@ -60,8 +60,12 @@ public class GestorDeTareas<T> {
         Nodo<T> actual = cabeza;
         while(actual != null){
             contador++;
+            actual = actual.getSig();
         }
+        return contador;
     }
+
+    
 
 
 }
