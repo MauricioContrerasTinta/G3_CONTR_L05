@@ -17,5 +17,13 @@ public class Tarea {
         return prioridad;
     }
 
+    public void setTitulo(String titulo){
+        this.titulo = titulo;
+    }
+
+    public void setPrioridad(int prioridad){
+        this.prioridad = prioridad;
+    }
+
     
 }
