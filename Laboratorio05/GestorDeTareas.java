@@ -65,7 +65,7 @@ public class GestorDeTareas<T> {
         return contador;
     }
 
-    
-
-
+    public T obtenerTareaMasPrioritaria(){
+        
+    }
 }
