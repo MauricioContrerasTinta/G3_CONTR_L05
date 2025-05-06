@@ -29,6 +29,9 @@ public class Ejercicios {
         Nodo<T> actual = cabeza;
         while (actual.getSig() != null) {
             actual = actual.getSig();
+        }
+        actual.setSig(nuevo);
+        return cabeza;
     }
 
 }
