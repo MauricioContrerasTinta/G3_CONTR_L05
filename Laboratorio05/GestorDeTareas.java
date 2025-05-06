@@ -47,5 +47,9 @@ public class GestorDeTareas<T> {
         return false;
     }
 
-    
+    public void imprimirTareas(){
+        
+    }
+
+
 }
