@@ -17,6 +17,7 @@ public class Main {
 
         gestor.eliminarTarea(t2);
 
-
+        System.out.println("Tareas: ");
+        gestor.imprimirTareas();
     }
 }
