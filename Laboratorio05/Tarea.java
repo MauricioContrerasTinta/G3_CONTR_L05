@@ -25,5 +25,8 @@ public class Tarea {
         this.prioridad = prioridad;
     }
 
-    
+    @Override
+    public String toString(){
+        retunr "(Titulo: " + this.titulo + "Prioridad: " + this.prioridad + ")";
+    }
 }
