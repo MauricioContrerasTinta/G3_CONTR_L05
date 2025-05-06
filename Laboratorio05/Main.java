@@ -47,5 +47,14 @@ public class Main {
         for (Tarea t : invertida) {
             System.out.println(t);
         }
+
+        Nodo<Tarea> nuevaCabeza = new Nodo<>(t1, null);
+        Ejercicios.insertarAlFinal(nuevaCabeza, t2);
+        System.out.println("Lista después de insertar al final:");
+        Nodo<Tarea> actual = nuevaCabeza;
+        while (actual != null) {
+            System.out.println(actual.getData());
+            actual = actual.getSig();
+        }
     }
 }
