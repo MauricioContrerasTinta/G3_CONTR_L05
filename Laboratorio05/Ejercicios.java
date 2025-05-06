@@ -60,6 +60,6 @@ public class Ejercicios {
             actual = actual.getSig();
         }
         actual.setSig(l2);
+        return l1;
     }
-
 }
