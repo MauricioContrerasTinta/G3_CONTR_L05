@@ -19,5 +19,7 @@ public class Main {
 
         System.out.println("Tareas: ");
         gestor.imprimirTareas();
+
+        System.out.println("\n¿Contiene Comer? " + gestor.contieneTarea(t1));
     }
 }
