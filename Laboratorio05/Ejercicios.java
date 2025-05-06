@@ -11,4 +11,8 @@ public class Ejercicios {
         return false;
     }
 
+    public static <T> Nodo<T> invertirLista(Nodo<T> cabeza){
+        
+    }
+
 }
