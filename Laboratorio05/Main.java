@@ -34,5 +34,7 @@ public class Main {
         for (Tarea t : tareasCompletadas) {
             System.out.println(t);
         }
+
+        System.out.println("Tarea más prioritaria: " + gestor.obtenerTareaMasPrioritaria());
     }
 }
