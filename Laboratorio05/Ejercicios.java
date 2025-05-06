@@ -41,6 +41,7 @@ public class Ejercicios {
             contador++;
             actual = actual.getSig();
         }
+        return contador; 
     }
 
 }
