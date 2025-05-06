@@ -21,5 +21,9 @@ public class Main {
         gestor.imprimirTareas();
 
         System.out.println("\n¿Contiene Comer? " + gestor.contieneTarea(t1));
+
+        gestor.invertirTareas();
+        System.out.println("\nLista invertida: ");
+        gestor.imprimirTareas();
     }
 }
