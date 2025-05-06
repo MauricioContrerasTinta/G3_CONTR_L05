@@ -39,6 +39,7 @@ public class Ejercicios {
         Nodo<T> actual = cabeza;
         while (actual != null){
             contador++;
+            actual = actual.getSig();
         }
     }
 
