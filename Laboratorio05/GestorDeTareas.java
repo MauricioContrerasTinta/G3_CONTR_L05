@@ -29,6 +29,10 @@ public class GestorDeTareas<T> {
         while(actual.getSig() != null && !actual.getSig().getData().equals(tarea)){
             actual = actual.getSig();
         }
-        
+
+        if(actual.getSig() != null){
+            actual.setSig(actual.getSig().getSig());
+            return true;
+        }
     }
 }
