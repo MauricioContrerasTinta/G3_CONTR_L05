@@ -29,5 +29,10 @@ public class Main {
         gestor.transferirTareaAListaCompletada(t3, tareasCompletadas);
         System.out.println("Tareas después de completar una: ");
         gestor.imprimirTareas();
+
+        System.out.println("Tareas completadas:");
+        for (Tarea t : tareasCompletadas) {
+            System.out.println(t);
+        }
     }
 }
