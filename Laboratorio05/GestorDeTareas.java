@@ -5,7 +5,7 @@ import java.util.List;
 public class GestorDeTareas<T> {
     private Nodo<T> cabeza;
 
-    private void agregarTarea(T tarea){
+    public void agregarTarea(T tarea){
         Nodo<T> nuevo = new Nodo<>(tarea, null);
         if(cabeza == null){
             cabeza = nuevo;
