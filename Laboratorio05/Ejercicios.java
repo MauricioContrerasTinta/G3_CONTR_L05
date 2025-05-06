@@ -6,7 +6,9 @@ public class Ejercicios {
         Nodo<T> actual = cabeza;
         while(actual != null){
             if(actual.getData().equals(valor)) return true;
+            actual = actual.getSig();
         }
+        return false;
     }
 
 }
