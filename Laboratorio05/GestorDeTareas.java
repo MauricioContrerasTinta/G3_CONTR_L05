@@ -42,6 +42,10 @@ public class GestorDeTareas<T> {
         Nodo<T> actual = cabeza;
         while(actual != null){
             if(actual.getData().equals(tarea)) return true;
+            actual = actual.getSig();
         }
+        return false;
     }
+
+    
 }
