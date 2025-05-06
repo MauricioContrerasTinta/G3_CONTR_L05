@@ -24,7 +24,8 @@ public class Ejercicios {
     }
 
     public static <T> Nodo<T> insertarAlFinal(Nodo<T> cabeza, T valor){
-        Nodo<T> nuevo
+        Nodo<T> nuevo = new Nodo<>(valor, null);
+        
     }
 
 }
