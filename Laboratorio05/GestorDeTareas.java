@@ -40,5 +40,8 @@ public class GestorDeTareas<T> {
 
     public boolean contieneTarea(T tarea){
         Nodo<T> actual = cabeza;
+        while(actual != null){
+            if(actual.getData().equals(tarea)) return true;
+        }
     }
 }
