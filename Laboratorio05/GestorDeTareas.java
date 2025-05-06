@@ -19,6 +19,7 @@ public class GestorDeTareas<T> {
     }
 
     public boolean eliminarTarea(T tarea){
+        if(cabeza == null) retunr false;
         
     }
 }
