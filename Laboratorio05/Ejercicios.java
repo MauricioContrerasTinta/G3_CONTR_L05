@@ -35,7 +35,11 @@ public class Ejercicios {
     }
 
     public static <T> int contarNodos(Nodo<T> cabeza){
-        
+        int contador = 0;
+        Nodo<T> actual = cabeza;
+        while (actual != null){
+            contador++;
+        }
     }
 
 }
