@@ -59,5 +59,10 @@ public class Main {
 
         int totalNodos = Ejercicios.contarNodos(nuevaCabeza);
         System.out.println("Total de nodos: " + totalNodos);
+
+        Nodo<Tarea> lista1 = new Nodo<>(t1, new Nodo<>(t2, null));
+        Nodo<Tarea> lista2 = new Nodo<>(t1, new Nodo<>(t2, null));
+        boolean iguales = Ejercicios.sonIguales(lista1, lista2);
+        System.out.println("¿Son iguales? " + iguales);
     }
 }
