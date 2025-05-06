@@ -48,7 +48,10 @@ public class GestorDeTareas<T> {
     }
 
     public void imprimirTareas(){
-        
+        Nodo<T> actual = cabeza;
+        while(actual != null){
+            System.out.println(actual.getData());
+        }
     }
 
 
