@@ -2,6 +2,8 @@ package Laboratorio05;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GestorDeTareas {
+public class GestorDeTareas<T> {
+    private Nodo<T> cabeza;
+
     
 }
