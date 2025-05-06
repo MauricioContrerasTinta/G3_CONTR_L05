@@ -17,4 +17,8 @@ public class GestorDeTareas<T> {
             actual.setSig(nuevo);
         }
     }
+
+    public boolean eliminarTarea(T tarea){
+        
+    }
 }
