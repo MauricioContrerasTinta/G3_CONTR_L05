@@ -69,5 +69,12 @@ public class GestorDeTareas<T> {
         if(cabeza == null || !(cabeza.getData() instanceof Tarea)) return null;
         Nodo<T> actual = cabeza;
         Tarea mejor = (Tarea) actual.getData();
+
+        whuile(actual != null){
+            Tarea T = (Tarea) actual.getData();
+            if(t.getPrioridad() > mejor.getPrioridad()){
+                mejor = t;
+            }
+        }
     }
 }
